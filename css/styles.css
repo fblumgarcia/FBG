@@ -1,0 +1,29 @@
+/*Estilos de todo el Documento*/
+hr{
+    border-style:  ridge;
+    border-top-style: dotted;
+    border-radius: 30%;
+    border-width: 2px;
+}
+/*Header*/
+#header{
+    text-align: center;
+    background-color: rgb(218, 219, 220);
+}
+#header img{
+    width: 10rem;
+    margin: 15px 5px;
+}
+#header h2{
+    font-family: 'Noto Serif Display', serif;
+    margin: 15px 5px;
+}
+#header h3{
+    font-family: 'Noto Serif Display', serif;
+}
+/*Main*/
+
+/*Footer*/
+#footer h3{
+    display: block;
+}
