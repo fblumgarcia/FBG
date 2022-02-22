@@ -10,8 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -31,27 +29,60 @@
                     </div>
                 </div>
             </div>
-        </div>          
+        </div>        
     </header>
     <main>
         <!--Descripción-->
         <section id="descripcion">
-            <h3>¿Quién soy?</h3>
-                <p>
-                    Soy Fernando Blum García, ingeniero mecánico egresado de la Universidad Nacional
-                    de Colombia sede Medellín, y tripulante de la Misión TIC 2022 realizado por el
-                    ministerio de las Tecnologías de la Información y las Comunicaciones de Colombia.
-                    Quiero desempeñarme como desarrollador fullstack en tu compañía. 
-                </p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <h3>¿Quién soy?</h3> 
+                            <p>
+                                Soy <span>Fernando Blum García</span> ingeniero mecánico egresado de la Universidad Nacional
+                                de Colombia sede Medellín, realicé prácticas profesionales en Ecopetrol S.A donde
+                                estuve involucrado en la gestión de compras y contratación, debido a esto vi la importancia
+                                del manejo de grandes cantidades de datos por lo que ingresé como tripulante de la Misión TIC
+                                2022 realizado por el ministerio de las Tecnologías de la Información y las Comunicaciones de
+                                Colombia. Quiero desempeñarme como desarrollador fullstack en tu compañía. 
+                            </p>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <img src="images/Yo.JPG" alt="Mi-foto">
+                    </div>                
+                </div>
+            </div>
         </section>
         <hr>
         <!--Habilidades-->
         <section id="habilidades">
-            <h3>Habilidades</h3>
-            <p>
-                Soy una persona a quien le gusta aprender continuamente, facilidad de adaptación a
-                los cambios, trabajo bien bajo presión y soy organizado con mis actividades.
-            </p>
+            <h3>Fortalezas</h3>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ic-hab">
+                        <i class="fa-brands fa-leanpub fa-4x"></i>
+                        <h5>Aprendizaje continúo</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 ic-hab">
+                        <i class="fa-solid fa-shuffle fa-4x"></i>
+                        <h5>Facilidad de adaptación</h5>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 ic-hab">
+                        <i class="fa-solid fa-screen-users fa-4x"></i>
+                        <h5>Trabajo en equipo</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 ic-hab">
+                        <i class="fa-solid fa-ear-listen fa-4x"></i>
+                        <h5>Escucha activa</h5>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 ic-hab">
+                        <i class="fa-solid fa-medal fa-4x"></i>
+                        <h5>Disciplinado</h5>
+                    </div>
+                </div>
+            </div>
         </section>
         <hr>
         <!--Conocimientos-->
@@ -66,46 +97,81 @@
             </div>
             <div>
                 <h4>Lenguajes de programación</h4>
-                <Table>
-                    <tr>
-                        <th><b> Programación backend</b></th>
-                        <th><b>Programación frontend</b></th>
-                        <th><b>Control de versiones y Bases de datos</b></th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <li><p><b>Python: </b><i class="fab fa-python"></i></p>⭐⭐⭐</li>
-                            <li><p><b>Java: </b><i class="fab fa-java"></i></p>⭐⭐⭐⭐</li>
-                        </td>
-                        <td>
-                            <li><p><b>HTML5: </b><i class="fab fa-html5"></i></p>⭐⭐⭐⭐</li>
-                            <li><p><b>CSS: </b><i class="fab fa-css3-alt"></i></p>⭐⭐</li>
-                            <li><p><b>Javascript: </b><i class="fab fa-js"></i></p>⭐⭐⭐⭐</li>
-                        </td>
-                        <td>
-                            <li><p><b>Git: </b><i class="fab fa-git"></i></p>⭐⭐⭐⭐</li>
-                            <li><p><b>MySQL: </b><i class="fas fa-database"></i></p>⭐⭐⭐</li>
-                        </td>
-                    </tr>                                                
-                    </Table>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4  col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <b> Programación backend</b>
+                                </div>
+                                <div class="card-body">
+                                    <li><i class="fab fa-python fa-2x   "></i><p> Python: </p>⭐⭐⭐</li>
+                                    <li><i class="fab fa-java fa-2x"></i><p> Java: </p>⭐⭐⭐⭐</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <b>Programación frontend</b>
+                                </div>
+                                <div class="card-body">
+                                    <li><i class="fab fa-html5 fa-2x"></i><p> HTML5: </p>⭐⭐⭐⭐</li>
+                                    <li><i class="fab fa-css3-alt fa-2x"></i><p> CSS: </p>⭐⭐</li>
+                                    <li><i class="fab fa-js fa-2x"></i><p> Javascript: </p>⭐⭐⭐⭐</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-md-6 col-sm-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <b>Control de versiones y Bases de datos</b>  
+                                </div>
+                                <div class="card-body">
+                                    <li><i class="fab fa-git fa-2x"></i><p> Git: </i></p>⭐⭐⭐⭐</li>
+                                    <li><i class="fas fa-database fa-2x"></i><p> MySQL: </i></p>⭐⭐⭐</li>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
         </section>
         <hr>
         <!--Descripción de proyectos-->
-        <section id="mis__proyectos">
+        <section id="proyectos">
             <h2>Mis proyectos</h2>
-            <section>
-                <a href="#"><h3>Programa de contabilidad de un colegio</h3></a>
-            </section>
-            <section>
-                <a href="#"><h3>Página web de una empresa de tecnología</h3></a>
-            </section>
-            <section>
-                <a href="#"><h3>Juego del ahorcado</h3></a>
-            </section>
-            <section>
-                <a href="#"><h3>Ubicación zonas Wifi</h3></a>
-            </section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="#"><h3>Programa de contabilidad de un colegio</h3></a>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="#"><h3>Página web de una empresa de tecnología</h3></a>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="#"><h3>Juego del ahorcado</h3></a>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="#"><h3>Ubicación zonas Wifi</h3></a>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="#"><h3>Plataforma</h3></a>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>       
         </section>
     </main>
     <hr>
