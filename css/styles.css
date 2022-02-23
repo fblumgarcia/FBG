@@ -3,7 +3,14 @@ hr{
     border-style:  ridge;
     border-top-style: dotted;
     border-radius: 30%;
-    border-width: 2px;
+    border-width: 4px;
+    color: rgb(223, 10, 10);
+    margin: 0;
+    height: 4px;
+}
+h2{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
 }
 /*Header*/
 #header{
@@ -16,9 +23,7 @@ hr{
     margin: 15px 0px;
 }
 #header h2{
-    font-family: 'Noto Serif Display', serif;
     margin: 95px 0px 0px;
-    font-weight: bold;
 }
 #header h3{
     font-family: 'Noto Serif Display', serif;
@@ -54,6 +59,9 @@ hr{
     color: rgb(209, 39, 158);
 }
 /*Main Conocimientos*/
+#conocimientos{
+    background-color: rgb(133, 252, 226);
+}
 #conocimientos li p{
     display: inline;
 }
@@ -62,6 +70,25 @@ hr{
     text-align: center;
 }
 /*Footer*/
-#footer h3{
-    display: block;
+#footer{
+    display: inline;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+#footer section{
+    background-image: linear-gradient(rgb(182, 54, 54), rgb(187, 187, 48), rgb(59, 59, 204));
+    padding: 2% 29%;
+}
+#footer i{  
+    color: rgb(209, 39, 158);
+    margin: 10px 0 0 20px;
+}
+#footer h2{
+    margin: 25px 0;
+}
+/*Haciendol responsive design*/
+@media (max-width:900px){
+    p{
+        font-size: 3rem;
+    }
 }
