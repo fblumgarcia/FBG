@@ -81,6 +81,7 @@ h3{
     text-align: center;
     background-color: #789395;
     padding: 20px 60px;
+    font-size: 2rem;
 }
 #proyectos img{
     height: 50%;
@@ -94,7 +95,7 @@ h3{
     text-align: center;
 }
 #footer section{
-    background-image: linear-gradient(rgb(182, 54, 54), rgb(187, 187, 48), rgb(59, 59, 204));
+    background-color: #E5E3C9;
     padding: 2% 29%;
 }
 #footer i{  
@@ -106,7 +107,174 @@ h3{
 }
 /*Haciendol responsive design*/
 @media (max-width:900px){
-    p{
-        font-size: 3rem;
-    }
+
 }
+
+/*Estilos de la página games*/
+/*Juego de los dados*/
+#dice-game .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+#dice-game .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+#dice-game{
+    background-color: #393E46;
+  }
+  
+#dice-game h1 {
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ECCA3;
+  }
+  
+#dice-game p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+#dice-game img {
+    width: 80%;
+  }
+  
+#dice-game footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
+#dice-game button{
+    background-color: #4ECCA3;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 30%;
+  }
+/*Drum*/
+#drum {
+    text-align: center;
+    background-color: #283149;
+    margin-top: 50px;
+  }
+  #drum h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+#drum .w {
+    background-image: url("../images/crash.png");
+}
+#drum .a {
+    background-image: url("../images/kick.png");
+}
+#drum .s {
+    background-image: url("../images/snare.png");
+}
+#drum .d {
+    background-image: url("../images/tom1.png");
+}
+#drum .j {
+    background-image: url("../images/tom2.png");
+}
+#drum .k {
+    background-image: url("../images/tom3.png");
+}
+#drum .l {
+    background-image: url("../images/tom4.png");
+}
+#drum .set {
+    margin: 10% auto;
+}
+#drum .game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+#drum .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+#drum .red {
+    color: red;
+}
+#drum .drums{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  /*Simon Dice*/
+  #SimonSays{
+    text-align: center;
+    background-color: #011F3F;
+  }
+  #SimonSays #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  #SimonSays .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  #SimonSays .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  #SimonSays .red {
+    background-color: red;
+  }
+  #SimonSays .green {
+    background-color: green;
+  }
+  #SimonSays .blue {
+    background-color: blue;
+  }
+  #SimonSays .yellow {
+    background-color: yellow;
+  }
+  #SimonSays .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  #SimonSays .playing{
+      visibility: hidden; 
+  }
+  #SimonSays #start{
+    width: 100px;
+    height: 40px;
+    background-color: blanchedalmond;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
