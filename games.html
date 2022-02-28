@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row"> 
                 <div class="col-md-4 col-sm-2"> 
-                    <img src="images/Logo.png" alt="LogoFBG">
+                    <a  href="index.html"><img src="images/Logo.png" alt="LogoFBG"></a>
                 </div>
                 <div class="col-md-8 col-sm-8">
                     <div class="row">
@@ -35,21 +35,24 @@
         </div>        
     </header>
     <main>
+        <div id="botones">
+            <h5>Estos juegos fueron realizados para el curso de Udemy The Complete 2022 Web Development Bootcamp</h5>
+            <a href=" #dice-game"><button type="button" class="btn btn-success game">Juego del dado</button></a>
+            <a href=" #drum"><button type="button" class="btn btn-success game">Batería</button></a>
+            <a href=" #SimonSays"><button type="button" class="btn btn-success game">Simón Dice</button></a>
+        </div>
         <!--Dice-game-->
-        <div id="dice-game">
+        <div id="dice-game" class="oculto">
             <div class="container">
               <h1>Press Play</h1>
-        
               <div class="dice">
                 <p>Player 1</p>
                 <img class="imag1" src="images/dice6.png">
               </div>
-        
               <div class="dice">
                 <p>Player 2</p>
                 <img class="imag2" src="images/dice6.png">
               </div>
-        
               <div>
                 <button class="button" onclick="play()">Play</button>
               </div>
@@ -57,7 +60,7 @@
             </div>
         </div>
         <!--Drum-->
-        <div id="drum">
+        <div id="drum" class="oculto">
             <h1 id="title">Drum 🥁 Kit</h1>
             <div class="set">
               <button class="w drums">w</button>
@@ -70,32 +73,22 @@
             </div>
         </div>
         <!--Simon Dice-->
-        <div id="SimonSays">
+        <div id="SimonSays" class="oculto">
             <h1 id="level-title">Press P Key to Start or</h1>
             <button id="start" onclick="startOver()">Start</button>
             <div class="container">
-              <div lass="row">
-          
-                <div type="button" id="green" class="btn green">
-          
+                <div lass="row">
+                    <div type="button" id="green" class="btn green">
+                    </div>
+                    <div type="button" id="red" class="btn red">
+                    </div>
                 </div>
-          
-                <div type="button" id="red" class="btn red">
-          
+                <div lass="row">
+                    <div type="button" id="yellow" class="btn yellow">
+                    </div>
+                    <div type="button" id="blue" class="btn blue">
+                    </div>
                 </div>
-              </div>
-          
-              <div class="row">
-          
-                <div type="button" id="yellow" class="btn yellow">
-          
-                </div>
-                <div type="button" id="blue" class="btn blue">
-          
-                </div>
-          
-              </div>
-          
             </div>
         </div>
     </main>

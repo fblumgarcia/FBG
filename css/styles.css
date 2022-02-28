@@ -16,6 +16,9 @@ h3{
     font-family: 'Noto Serif Display', serif;
     font-weight: bold;   
 }
+main{
+  background-color: #94B49F;
+}
 /*Header*/
 #header{
     text-align: center;
@@ -89,6 +92,13 @@ h3{
 #proyectos button{
     color: #94B49F;
 }
+#proyectos a{
+  color: #000000;
+  text-decoration: none;
+}
+#proyectos h6{
+  margin-top: -25px;
+}
 /*Footer*/
 #footer{
     display: inline;
@@ -109,7 +119,15 @@ h3{
 @media (max-width:900px){
 
 }
-
+/*Estilos página contacto*/
+#contacto{
+  text-align: center;
+  background-color: #B4CFB0;
+  padding: 20px 290px;
+}
+#contacto input{
+  background:linear-gradient(top,white,blue);
+}
 /*Estilos de la página games*/
 /*Juego de los dados*/
 #dice-game .container {
@@ -195,11 +213,7 @@ h3{
 #drum .set {
     margin: 10% auto;
 }
-#drum .game-over {
-    background-color: red;
-    opacity: 0.8;
-}
-#drum .pressed {
+.pressed {
     box-shadow: 0 3px 4px 0 #DBEDF3;
     opacity: 0.5;
 }
@@ -241,10 +255,10 @@ h3{
   
   }
   #SimonSays .btn {
-    margin: 25px;
+    margin: 15px;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border: 10px solid black;
     border-radius: 20%;
   }
@@ -277,4 +291,7 @@ h3{
     background-color: blanchedalmond;
     font-family: 'Press Start 2P', cursive;
   }
-  
+  #botones{
+    text-align: center;
+    padding: 50px;
+  }
